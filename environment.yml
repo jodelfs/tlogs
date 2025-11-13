@@ -1,4 +1,4 @@
-name: tlogs
+name: testenv
 channels:
   - conda-forge
   - defaults
@@ -8,7 +8,7 @@ dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
   - bzip2=1.0.8=hda65f42_8
-  - ca-certificates=2025.10.5=hbd8a1cb_0
+  - ca-certificates=2025.11.12=hbd8a1cb_0
   - icu=75.1=he02047a_0
   - ld_impl_linux-64=2.44=h1aa0949_5
   - libexpat=2.7.1=hecca717_0
@@ -37,20 +37,37 @@ dependencies:
       - affine==2.4.0
       - attrs==25.4.0
       - bokeh==3.6.2
-      - certifi==2025.10.5
+      - certifi==2025.11.12
       - click==8.3.0
       - click-plugins==1.1.1.2
       - cligj==0.7.2
       - contourpy==1.3.3
+      - cycler==0.12.1
+      - emcee==3.1.6
+      - fiona==1.10.1
+      - fonttools==4.60.1
       - geoalchemy2==0.16.0
       - geopandas==1.0.1
       - greenlet==3.2.4
+      - gstools==1.7.0
+      - gstools-cython==1.1.0
+      - hankel==1.2.2
       - jinja2==3.1.6
+      - joblib==1.5.2
+      - kiwisolver==1.4.9
+      - markdown-it-py==4.0.0
       - markupsafe==3.0.3
+      - matplotlib==3.10.7
+      - mdurl==0.1.2
+      - meshio==5.3.5
+      - mpmath==1.3.0
       - numpy==2.3.4
       - packaging==25.0
       - pandas==2.3.3
+      - patsy==1.0.2
       - pillow==12.0.0
+      - pyevtk==1.6.0
+      - pygments==2.19.2
       - pyogrio==0.11.1
       - pyparsing==3.2.5
       - pyproj==3.7.0
@@ -58,12 +75,22 @@ dependencies:
       - pytz==2025.2
       - pyyaml==6.0.3
       - rasterio==1.4.3
+      - rasterstats==0.19.0
+      - rich==14.2.0
+      - rioxarray==0.19.0
+      - scikit-learn==1.7.2
       - scipy==1.16.3
+      - seaborn==0.13.2
       - shapely==2.1.2
+      - simplejson==3.20.2
       - six==1.17.0
       - sqlalchemy==2.0.36
+      - statsmodels==0.14.5
+      - tabulate==0.9.0
+      - threadpoolctl==3.6.0
       - tornado==6.5.2
       - typing-extensions==4.15.0
       - tzdata==2025.2
+      - xarray==2025.10.1
       - xyzservices==2025.10.0
-prefix: /home/jens/anaconda3/envs/test-projekt
+prefix: /home/jens/anaconda3/envs/testenv
